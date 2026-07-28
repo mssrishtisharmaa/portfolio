@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg1" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#152033"/>
+    </linearGradient>
+    <linearGradient id="line1" x1="0" y1="0" x2="800" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7A9E7E"/>
+      <stop offset="1" stop-color="#4CAF50"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg1)"/>
+  <g opacity="0.08">
+    <circle cx="700" cy="80" r="140" fill="#4CAF50"/>
+    <circle cx="60" cy="440" r="120" fill="#7A9E7E"/>
+  </g>
+
+  <!-- eye shape -->
+  <g transform="translate(400,220)">
+    <path d="M-160 0 C -90 -75 90 -75 160 0 C 90 75 -90 75 -160 0 Z" fill="none" stroke="url(#line1)" stroke-width="3"/>
+    <circle cx="0" cy="0" r="42" fill="none" stroke="#9BB89E" stroke-width="3"/>
+    <circle cx="0" cy="0" r="10" fill="#6FCF73"/>
+    <!-- landmark points -->
+    <g fill="#4CAF50">
+      <circle cx="-160" cy="0" r="4"/>
+      <circle cx="-96" cy="-46" r="4"/>
+      <circle cx="-32" cy="-64" r="4"/>
+      <circle cx="32" cy="-64" r="4"/>
+      <circle cx="96" cy="-46" r="4"/>
+      <circle cx="160" cy="0" r="4"/>
+      <circle cx="96" cy="46" r="4"/>
+      <circle cx="-96" cy="46" r="4"/>
+    </g>
+  </g>
+
+  <!-- morse readout -->
+  <g transform="translate(160,360)" font-family="monospace" font-size="28" fill="#94A3B8">
+    <text x="0" y="0" fill="#9BB89E">•</text>
+    <text x="20" y="0">—</text>
+    <text x="60" y="0" fill="#9BB89E">•</text>
+    <text x="80" y="0" fill="#9BB89E">•</text>
+    <text x="110" y="0">—</text>
+    <text x="150" y="0">—</text>
+    <text x="190" y="0" fill="#9BB89E">•</text>
+  </g>
+
+  <path d="M60 60 C 90 40 110 42 120 30" stroke="#7A9E7E" stroke-width="2" fill="none" opacity="0.5" stroke-linecap="round"/>
+</svg>

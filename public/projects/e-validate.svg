@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#152033"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg2)"/>
+  <g opacity="0.08">
+    <circle cx="90" cy="70" r="130" fill="#7A9E7E"/>
+    <circle cx="720" cy="440" r="150" fill="#4CAF50"/>
+  </g>
+
+  <!-- document card -->
+  <g transform="translate(300,90)">
+    <rect x="0" y="0" width="220" height="300" rx="14" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+    <rect x="24" y="34" width="140" height="10" rx="5" fill="#7A9E7E"/>
+    <rect x="24" y="60" width="172" height="6" rx="3" fill="#334155"/>
+    <rect x="24" y="78" width="172" height="6" rx="3" fill="#334155"/>
+    <rect x="24" y="96" width="120" height="6" rx="3" fill="#334155"/>
+
+    <!-- checklist rows -->
+    <g font-family="sans-serif">
+      <circle cx="36" cy="146" r="9" fill="none" stroke="#4CAF50" stroke-width="2"/>
+      <path d="M31 146 l4 4 l8 -9" stroke="#6FCF73" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="56" y="141" width="130" height="8" rx="4" fill="#334155"/>
+
+      <circle cx="36" cy="180" r="9" fill="none" stroke="#4CAF50" stroke-width="2"/>
+      <path d="M31 180 l4 4 l8 -9" stroke="#6FCF73" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="56" y="175" width="110" height="8" rx="4" fill="#334155"/>
+
+      <circle cx="36" cy="214" r="9" fill="none" stroke="#EF4444" stroke-width="2" opacity="0.8"/>
+      <path d="M32 210 l8 8 M40 210 l-8 8" stroke="#EF4444" stroke-width="2.2" stroke-linecap="round" opacity="0.8"/>
+      <rect x="56" y="209" width="140" height="8" rx="4" fill="#334155"/>
+
+      <circle cx="36" cy="248" r="9" fill="none" stroke="#4CAF50" stroke-width="2"/>
+      <path d="M31 248 l4 4 l8 -9" stroke="#6FCF73" stroke-width="2.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <rect x="56" y="243" width="95" height="8" rx="4" fill="#334155"/>
+    </g>
+  </g>
+
+  <!-- floating leaf accent -->
+  <path d="M560 130c-4.5-1-8-4.8-8-10.2 0-3.9 3.3-6.8 7.6-7.8.3 4 .1 7.4-1.7 10.1" stroke="#7A9E7E" stroke-width="1.6" fill="none" stroke-linecap="round" opacity="0.6"/>
+</svg>

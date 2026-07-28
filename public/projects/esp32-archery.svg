@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="800" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1E293B"/>
+      <stop offset="1" stop-color="#152033"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bg3)"/>
+  <g opacity="0.08">
+    <circle cx="80" cy="420" r="140" fill="#4CAF50"/>
+    <circle cx="740" cy="70" r="120" fill="#7A9E7E"/>
+  </g>
+
+  <!-- target -->
+  <g transform="translate(300,250)">
+    <circle r="150" fill="none" stroke="#334155" stroke-width="2"/>
+    <circle r="105" fill="none" stroke="#4CAF50" stroke-width="2" opacity="0.55"/>
+    <circle r="60" fill="none" stroke="#7A9E7E" stroke-width="2" opacity="0.75"/>
+    <circle r="18" fill="#6FCF73"/>
+    <!-- arrow hit -->
+    <line x1="-260" y1="90" x2="6" y2="4" stroke="#F8FAFC" stroke-width="3" stroke-linecap="round"/>
+    <path d="M6 4 l-16 -10 l4 18 Z" fill="#F8FAFC"/>
+  </g>
+
+  <!-- circuit trace border -->
+  <g stroke="#7A9E7E" stroke-width="2" fill="none" opacity="0.55">
+    <path d="M540 60 h120 v60 h60"/>
+    <circle cx="720" cy="120" r="5" fill="#4CAF50" stroke="none"/>
+    <path d="M560 440 h140 v-70 h60"/>
+    <circle cx="760" cy="370" r="5" fill="#4CAF50" stroke="none"/>
+  </g>
+
+  <text x="560" y="40" font-family="monospace" font-size="18" fill="#94A3B8">ESP32 · WS · OLED</text>
+</svg>
