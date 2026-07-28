@@ -7,7 +7,8 @@ import tailwindcss from '@tailwindcss/vite'
 // e.g. if your repo is https://github.com/username/portfolio, base should be '/portfolio/'.
 // If deploying to a user/organization page (username.github.io), set base to '/'.
 export default defineConfig({
-  base: '/portfolio/',
+  // base: '/portfolio/' 
+  base: "/",
   plugins: [react(), tailwindcss()],
   build: {
     outDir: 'dist',
