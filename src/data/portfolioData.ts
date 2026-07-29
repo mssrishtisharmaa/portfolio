@@ -76,7 +76,7 @@ export const personalInfo: PersonalInfo = {
     "I build reliable, real-time systems that connect hardware, software, and data — from computer-vision input devices to IoT games running entirely on a microcontroller.",
   location: 'New Delhi, India',
   email: 'ms.srishti.sharma@outlook.com',
-  resumeUrl: '/resume.pdf',
+  resumeUrl: '/Resume.pdf',
   avatarInitials: 'SS',
 };
 
