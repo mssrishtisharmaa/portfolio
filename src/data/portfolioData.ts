@@ -85,8 +85,8 @@ export const personalInfo: PersonalInfo = {
 /* ------------------------------------------------------------------ */
 
 export const socialLinks: SocialLink[] = [
-  { label: 'GitHub', href: 'https://github.com/', icon: FaGithub },
-  { label: 'LinkedIn', href: 'https://linkedin.com/', icon: FaLinkedin },
+  { label: 'GitHub', href: 'https://github.com/mssrishtisharmaa', icon: FaGithub },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/ms-srishti-sharma/', icon: FaLinkedin },
   { label: 'Email', href: 'mailto:ms.srishti.sharma@outlook.com', icon: FaEnvelope },
 ];
 
@@ -250,6 +250,24 @@ export const experience: ExperienceEntry[] = [
 
 export const projects: ProjectEntry[] = [
   {
+    id: 'proj-esp32-archery',
+    title: 'ESP32 Smart Archery Game',
+    description:
+      'A real-time IoT archery scoring system hosted entirely on an ESP32, playable from any browser on the local network.',
+    longDescription:
+      'Developed a real-time IoT archery scoring system on ESP32, serving a browser-based game wirelessly with automated hit detection across 2 difficulty levels and 5 scored rounds. Implemented WebSocket-based communication and a Firebase Realtime Database to synchronize hit events, live scores, and leaderboard updates across connected clients. Designed an interactive HTML5 Canvas interface featuring animated targets and dynamic difficulty progression, then hosted the entire web application directly on the ESP32 using FFat and ESPAsyncWebServer, integrating IR sensors and an OLED display for real-time hit detection and score feedback.',
+    image: '/projects/esp32-archery.svg',
+    techStack: ['ESP32', 'Embedded C++', 'JavaScript', 'HTML5 Canvas', 'Firebase', 'WebSockets'],
+    features: [
+      'Self-hosted web app served directly from the ESP32 (FFat + ESPAsyncWebServer)',
+      'WebSocket sync of hit events, scores, and leaderboards in real time',
+      'IR sensors + OLED display for physical hit detection and feedback',
+      'Animated HTML5 Canvas UI with 2 difficulty levels and 5 scored rounds',
+    ],
+    githubUrl: 'https://github.com/mssrishtisharmaa/esp32-smart-archery-game',
+    featured: true,
+  },
+  {
     id: 'proj-morse-decoder',
     title: 'Vision-Based Morse Code Decoder',
     description:
@@ -264,7 +282,7 @@ export const projects: ProjectEntry[] = [
       'Full A–Z decoding pipeline with live text output',
       'Gesture-based ON/OFF toggle and visual feedback overlay',
     ],
-    githubUrl: 'https://github.com/',
+    githubUrl: 'https://github.com/mssrishtisharmaa/Vision-Based-Morse-Code-Decoder',
     featured: true,
   },
   {
@@ -282,27 +300,10 @@ export const projects: ProjectEntry[] = [
       'Automated compliance report generation',
       'Cut manual validation time by up to 90%',
     ],
-    githubUrl: 'https://github.com/',
+    githubUrl: 'https://github.com/mssrishtisharmaa/E-validate',
     featured: true,
   },
-  {
-    id: 'proj-esp32-archery',
-    title: 'ESP32 Smart Archery Game',
-    description:
-      'A real-time IoT archery scoring system hosted entirely on an ESP32, playable from any browser on the local network.',
-    longDescription:
-      'Developed a real-time IoT archery scoring system on ESP32, serving a browser-based game wirelessly with automated hit detection across 2 difficulty levels and 5 scored rounds. Implemented WebSocket-based communication and a Firebase Realtime Database to synchronize hit events, live scores, and leaderboard updates across connected clients. Designed an interactive HTML5 Canvas interface featuring animated targets and dynamic difficulty progression, then hosted the entire web application directly on the ESP32 using FFat and ESPAsyncWebServer, integrating IR sensors and an OLED display for real-time hit detection and score feedback.',
-    image: '/projects/esp32-archery.svg',
-    techStack: ['ESP32', 'Embedded C++', 'JavaScript', 'HTML5 Canvas', 'Firebase', 'WebSockets'],
-    features: [
-      'Self-hosted web app served directly from the ESP32 (FFat + ESPAsyncWebServer)',
-      'WebSocket sync of hit events, scores, and leaderboards in real time',
-      'IR sensors + OLED display for physical hit detection and feedback',
-      'Animated HTML5 Canvas UI with 2 difficulty levels and 5 scored rounds',
-    ],
-    githubUrl: 'https://github.com/',
-    featured: true,
-  },
+  
 ];
 
 /* ------------------------------------------------------------------ */
@@ -329,12 +330,21 @@ export const achievements: AchievementEntry[] = [
   },
   {
     id: 'ach-leetcode',
-    title: 'LeetCode Contest Rating — 1476',
+    title: 'LeetCode Contest Rating — 1480',
     description: 'Achieved a peak LeetCode Contest Rating of 1476 through consistent competitive programming practice.',
-    date: '2025',
+    date: '2026',
     category: 'competitive-programming',
     icon: FaAward,
   },
+  {
+  id: 'ach-codechef',
+  title: 'CodeChef Highest Rating — 1074',
+  description:
+    'Achieved a highest CodeChef contest rating of 1074 through consistent participation in rated competitive programming contests.',
+  date: '2026',
+  category: 'competitive-programming',
+  icon: FaAward,
+}
 ];
 
 /* ------------------------------------------------------------------ */
@@ -367,9 +377,9 @@ export const leadership: LeadershipEntry[] = [
 /* ------------------------------------------------------------------ */
 /* Certifications                                                       */
 /* ------------------------------------------------------------------ */
-/* No certifications were listed on the source resume — replace the
-   entries below with your own credentials, or remove this array's
-   contents to hide the section (see CertificationsSection.tsx). */
+// /* No certifications were listed on the source resume — replace the
+//    entries below with your own credentials, or remove this array's
+//    contents to hide the section (see CertificationsSection.tsx). */
 
 export const certifications: CertificationEntry[] = [];
 

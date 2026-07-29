@@ -15,11 +15,11 @@ export function CertificationsSection() {
           <div className="flex flex-col items-center gap-3 rounded-2xl border border-dashed border-[var(--color-border-strong)] px-6 py-14 text-center">
             <LeafIcon className="h-8 w-8 text-[var(--color-sage)] opacity-60" />
             <p className="max-w-sm text-sm leading-relaxed text-[var(--color-muted)]">
-              No certifications added yet. Add entries to the{' '}
+              certifications loading soon. {' '}
               <code className="font-mono-tech rounded bg-[var(--color-card)] px-1.5 py-0.5 text-[var(--color-sage-light)]">
-                certifications
+                {/* certifications */}
               </code>{' '}
-              array in <code className="font-mono-tech rounded bg-[var(--color-card)] px-1.5 py-0.5 text-[var(--color-sage-light)]">portfolioData.ts</code> and they'll appear here automatically.
+              {/* array in <code className="font-mono-tech rounded bg-[var(--color-card)] px-1.5 py-0.5 text-[var(--color-sage-light)]">portfolioData.ts</code> and they'll appear here automatically. */}
             </p>
           </div>
         ) : (
